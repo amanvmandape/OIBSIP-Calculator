@@ -1,5 +1,5 @@
 function addToScreen(event) {
-    document.getElementById('screen').value += event.target.value;
+    document.getElementById('screen').value += event.target.innerText;
   }
 
   function clearScreen() {
