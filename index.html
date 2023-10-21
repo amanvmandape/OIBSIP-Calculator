@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row mb-5 text-center">
+            <h1 class="p-4 text-light display-1">Calculator App</h1>
+        </div>
+        <div class="grid-container">
+            <div class="grid-item-input"><input type="text" id="screen" class="form-control" disabled></div>
+            <div class="grid-item"><button class="btn" onclick="addToScreen(event)">7</button></div>
+            <div class="grid-item"><button class="btn" onclick="addToScreen(event)">8</button></div>
+            <div class="grid-item"><button class="btn" onclick="addToScreen(event)">9</button></div>
+            <div class="grid-item"><button class="btn" onclick="addToScreen(event)">+</button></div>
+            <div class="grid-item"><button class="btn" onclick="addToScreen(event)">4</button></div>
+            <div class="grid-item"><button class="btn" onclick="addToScreen(event)">5</button></div>
+            <div class="grid-item"><button class="btn" onclick="addToScreen(event)">6</button></div>
+            <div class="grid-item"><button class="btn" onclick="addToScreen(event)">-</button></div>
+            <div class="grid-item"><button class="btn" onclick="addToScreen(event)">1</button></div>
+            <div class="grid-item"><button class="btn" onclick="addToScreen(event)">2</button></div>
+            <div class="grid-item"><button class="btn" onclick="addToScreen(event)">3</button></div>
+            <div class="grid-item"><button class="btn" onclick="addToScreen(event)">*</button></div>
+            <div class="grid-item-zero"><button class="btn" onclick="addToScreen(event)">0</button></div>
+            <div class="grid-item"><button class="btn" onclick="addToScreen(event)">.</button></div>
+            <div class="grid-item"><button class="btn" onclick="addToScreen(event)">/</button></div>
+            <div class="grid-item-clear"><button class="btn" onclick="clearScreen()">C</button></div>
+            <div class="grid-item-equal"><button class="btn" onclick="calculateResult()">=</button></div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
